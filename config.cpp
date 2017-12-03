@@ -3,6 +3,7 @@ class CfgPatches {
 
 	class Gangsta_plates {
 		requiredAddons[] = {"SonicT_Items"};
+		units[] = {};
 		author = "Berlioz";
 		fileName = "Gangstaplates.pbo";
 	};
@@ -12,7 +13,7 @@ class CfgPatches {
 class CfgMods{
 	class Mod_Base;
 	class Gangstaplates{
-		units[] = {};
+		
 		author = "Sonic.T";
 		picture = "\SCT\sonict.paa";
 		logo = "\SCT\sonict.paa";
